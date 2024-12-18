@@ -39,7 +39,7 @@ body {
 }
 
 .scoreBoard {
-  background-color: cyan;
+  background-color: hsl(306, 32%, 57%);
   border-radius: 20px;
   margin-top: 200px;
   margin-left: 200px;
@@ -51,5 +51,5 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  color: #85796b;
+  color: #050403;
 }
