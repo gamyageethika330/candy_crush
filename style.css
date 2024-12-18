@@ -53,3 +53,27 @@ body {
   text-align: center;
   color: #050403;
 }
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(8, 30px);
+    grid-template-rows: repeat(8, 30px);
+  }
+
+  .grid div {
+    width: 30px;
+    height: 30px;
+  }
+
+  .scoreBoard {
+    padding: 5px 10px;
+  }
+
+  .scoreBoard h3 {
+    font-size: 0.9rem;
+  }
+
+  .scoreBoard h1 {
+    font-size: 1.2rem;
+  }
+}
